@@ -2,8 +2,6 @@
 
 A standalone MQTT gateway for **Devantech ETH00x / ETH80xx / dScript ("2824"-style)** relay & I/O boards, with full **Home Assistant MQTT discovery**. Runs as a Home Assistant local app (formerly "add-on") — no other Home Assistant integration or third-party framework required.
 
-It replaces the `readETH008.py` driver from the old pvOpt home-automation project: same wire protocol, but reimplemented as a self-contained polling/event gateway instead of a call-driven library.
-
 ## Features
 
 - **Auto-discovers itself into Home Assistant** via MQTT discovery — no manual entity/YAML configuration needed.
